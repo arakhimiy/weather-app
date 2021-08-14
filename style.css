@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: rgb(214, 213, 213);
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.search {
+  margin-top: 50px;
+}
+.search-input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  margin-top: 10px;
+  box-shadow: 0px 10px 25px 0px rgb(29 17 3 / 12%);
+}
+
+.card {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  color: rgb(196, 195, 195);
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 25px 0px rgb(29 17 3 / 12%);
+}
+
+.error-message {
+  width: 100%;
+  background: red;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
